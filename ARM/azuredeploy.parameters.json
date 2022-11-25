@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "sshRSAPublicKey": {
-      "value": "<your RSA public key>"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCrCIeqqMaZi83QykGvS1htsl2tzzkrOMAoqNpBQg4b3ehO0x1TJOpXMMQy4tiiaYTicoeJLKn17NTeXokzOtnV+cePxWi12HS8YFwFASqmo0LPerja9ZpwheAlimWbppGHLlwnRK6zNkzT7CVKC6J7aWsZogDbge7V1bxdmaTccfofE8o7/NDUwZniMlRgkC/68eNN3uq5W7gfqrxzVotZhXE7oN16mQd1//bOaMUVcn/u9tdXYAEmYzkqQVZNYIEAg7L+ojCYf+4HZ2T+mXXE++7qgxhHEIZDv/6nF/iSPWkArb43GUkbw5NzV+Hc7HaBru49Cd1RVbd02cb8Je+Xe5oB8UKqJ+nSx8U3ULLBGNHjLAJiUAt4AMXFxvGC2g+xv2IyJyy/eG351twcxBuTgXaW0+KOg6z6PD0dt+albBCn6enmhgWMAaW8oaSvuYtn07ueewQg6x0sK61yThUI/DkhyZEijd0P98u7Ak+863DwooRjGV1qwdP7TVL6Wls= pabloam@DESKTOP-Q7JO6V0"
     },
     "spnClientId": {
-      "value": "<your service principal client id>"
+      "value": "56753461-0f5c-4e32-9be1-4758c1abdab7"
     },
     "spnClientSecret": {
-      "value": "<your service principal secret>"
+      "value": "T.h8Q~AFKp6wSqGn1mziWw17AK6oSndn4HFdvaC8"
     },
     "spnTenantId": {
-      "value": "<your spn tenant id>"
+      "value": "992574ac-b653-4e8b-b422-f383337f11c1"
     },
     "windowsAdminUsername": {
       "value": "arcdemo"
@@ -21,22 +21,22 @@
       "value": "ArcPassword123!!"
     },
     "logAnalyticsWorkspaceName": {
-      "value": "<your unique Log Analytics workspace name>"
+      "value": "law-arc"
     },
     "deploySQLMI": {
-      "value": "<SQL Managed Instance deployment (true/false)>"
+      "value": false
     },
     "SQLMIHA": {
-      "value": "<SQL Managed Instance high-availability deployment (true/false)>"
+      "value": false
     },
     "deployPostgreSQL": {
-      "value": "<PostgreSQL deployment (true/false)>"
+      "value": false
     },
     "deployBastion": {
-      "value": "(true/false)"
+      "value": false
     },
     "bastionHostName": {
-      "value": "<Azure Bastion Hostname>"
+      "value": "Bastion"
     }
   }
 }

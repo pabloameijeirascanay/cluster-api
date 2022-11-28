@@ -131,12 +131,12 @@ $extensionId = az k8s-extension show --name arc-data-services `
 Start-Sleep -Seconds 20
 
 # Create Custom Location
-az connectedk8s enable-features -n $Env:connectedClusterName `
+az connectedk8s enable-features -n $connectedClusterName `
                                 -g $Env:resourceGroup `
                                 --custom-locations-oid $Env:customLocationRPOID `
                                 --features cluster-connect custom-locations
 
-$customLocationName = "$Env:connectedClusterName-cl"
+$customLocationName = "$connectedClusterName-cl"
 
 az customlocation create --name $customlocationName `
                          --resource-group $Env:resourceGroup `
